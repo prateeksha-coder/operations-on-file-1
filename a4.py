@@ -7,8 +7,8 @@ fn1 = open('CodingalUpdated.txt', 'w')
 
 # read the content of the file line by line
 cont = fn.readlines()
-type(cont)
-print(len(cont))
+#type(cont)
+#print(len(cont))
 for i in range(1, len(cont)+1):
 	if(i % 2 != 0):
 		fn1.write(cont[i-1])
