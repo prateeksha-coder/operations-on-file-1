@@ -3,7 +3,7 @@
 fn = open('Codingal.txt', 'r')
 
 # open other file in write mode
-fn1 = open('CodingalUpdated.txt', 'w')
+fn1 = open('CodingalUpdated2.txt', 'w')
 
 # read the content of the file line by line
 cont = fn.readlines()
@@ -19,7 +19,7 @@ for i in range(1, len(cont)+1):
 fn1.close()
 
 # open file in read mode
-fn1 = open('CodingalUpdated.txt', 'r')
+fn1 = open('CodingalUpdated2.txt', 'r')
 
 # read the content of the file
 cont1 = fn1.read()
